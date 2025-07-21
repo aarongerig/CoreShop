@@ -33,6 +33,7 @@ use Doctrine\Persistence\Proxy;
 class EntityMerger
 {
     private IdentifierFlattener $identifierFlattener;
+
     private array $cascadeMergeAssociations;
 
     public function __construct(
@@ -318,7 +319,7 @@ class EntityMerger
                 }
 
                 return false;
-            }
+            },
         );
         $noMergeAssociationMappings = array_filter(
             $class->associationMappings,

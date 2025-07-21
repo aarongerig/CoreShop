@@ -31,7 +31,6 @@ class EntityRepository extends BaseEntityRepository implements RepositoryInterfa
         readonly ClassMetadata $class,
     ) {
         parent::__construct($_em, $class);
-
     }
 
     public function add(ResourceInterface $resource): void

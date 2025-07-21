@@ -59,7 +59,8 @@ EOT
                 'f',
                 InputOption::VALUE_NONE,
                 'Causes the generated SQL statements to be physically executed against your database.',
-            );
+            )
+        ;
     }
 
     protected function execute(InputInterface $input, OutputInterface $output): int

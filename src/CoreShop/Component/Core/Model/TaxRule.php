@@ -28,6 +28,7 @@ use CoreShop\Component\Taxation\Model\TaxRule as BaseTaxRule;
 class TaxRule extends BaseTaxRule implements TaxRuleInterface, \Stringable
 {
     protected ?CountryInterface $country = null;
+
     protected ?StateInterface $state = null;
 
     public function __toString(): string

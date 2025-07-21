@@ -85,7 +85,7 @@ final class CoreShopResourceExtension extends AbstractModelExtension
             [
                 PimcoreGenericExecutionEngineBundle::class,
             ],
-            $container
+            $container,
         );
 
         $bodyListener = new Definition(BodyListener::class);

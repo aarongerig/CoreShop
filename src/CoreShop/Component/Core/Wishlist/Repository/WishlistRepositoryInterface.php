@@ -30,6 +30,6 @@ interface WishlistRepositoryInterface extends
     public function findLatestByStoreAndCustomer(
         StoreInterface $store,
         CustomerInterface $customer,
-        ?string $name = null
+        ?string $name = null,
     ): ?WishlistInterface;
 }

@@ -22,8 +22,6 @@ use CoreShop\Component\Index\Interpreter\RelationalValue;
 use CoreShop\Component\Index\Interpreter\RelationInterpreterInterface;
 use CoreShop\Component\Index\Model\IndexableInterface;
 use CoreShop\Component\Index\Model\IndexColumnInterface;
-use Doctrine\DBAL\Schema\Column;
-use Doctrine\DBAL\Types\Type;
 
 class CustomRelationalIndexInterpreter implements RelationInterpreterInterface
 {

@@ -22,7 +22,6 @@ use CoreShop\Component\Core\Model\CategoryInterface;
 use CoreShop\Component\Core\Model\ProductInterface;
 use CoreShop\Component\Index\Extension\IndexColumnsExtensionInterface;
 use CoreShop\Component\Index\Model\IndexableInterface;
-use CoreShop\Component\Index\Model\IndexColumnInterface;
 use CoreShop\Component\Index\Model\IndexInterface;
 use Doctrine\DBAL\Schema\Column;
 use Doctrine\DBAL\Types\Type;

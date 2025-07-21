@@ -19,7 +19,6 @@ declare(strict_types=1);
 namespace CoreShop\Behat\Service\Index;
 
 use CoreShop\Component\Index\Extension\IndexRelationalColumnsExtensionInterface;
-use CoreShop\Component\Index\Model\IndexColumnInterface;
 use CoreShop\Component\Index\Model\IndexInterface;
 use Doctrine\DBAL\Schema\Column;
 use Doctrine\DBAL\Types\Type;

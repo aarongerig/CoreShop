@@ -92,9 +92,8 @@ class ChangeAddressPage extends AbstractFrontendPage implements ChangeAddressPag
         ?string $firstname = null,
         ?string $lastname = null,
         ?string $salutation = null,
-        ?string $phone = null
-    ): void
-    {
+        ?string $phone = null,
+    ): void {
         $this->getElement('address-phoneNumber')->setValue($phone);
         $this->getElement('address-country')->setValue($country?->getId());
         $this->getElement('address-city')->setValue($city);

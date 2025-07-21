@@ -29,17 +29,29 @@ class IndexColumn extends AbstractResource implements IndexColumnInterface, \Str
     use TimestampableTrait;
 
     public ?int $id = null;
+
     public ?string $type = null;
+
     public ?string $objectKey = null;
+
     public ?string $name = null;
+
     public ?string $objectType = null;
+
     public ?string $getter = null;
+
     public array $getterConfig = [];
+
     public ?string $dataType = null;
+
     public ?string $interpreter = null;
+
     public array $interpreterConfig = [];
+
     public ?string $columnType = null;
+
     public array $configuration = [];
+
     public ?IndexInterface $index;
 
     public function __toString(): string

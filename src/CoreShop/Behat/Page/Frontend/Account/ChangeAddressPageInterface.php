@@ -52,6 +52,6 @@ interface ChangeAddressPageInterface extends FrontendPageInterface
         ?string $firstname = null,
         ?string $lastname = null,
         ?string $salutation = null,
-        ?string $phone = null
+        ?string $phone = null,
     ): void;
 }

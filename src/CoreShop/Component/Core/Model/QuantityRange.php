@@ -27,8 +27,11 @@ use CoreShop\Component\ProductQuantityPriceRules\Model\QuantityRange as BaseQuan
 class QuantityRange extends BaseQuantityRange implements QuantityRangeInterface
 {
     protected int $amount = 0;
+
     protected ?CurrencyInterface $currency = null;
+
     protected ?ProductUnitDefinitionInterface $unitDefinition = null;
+
     protected int $pseudoPrice = 0;
 
     public function getAmount()

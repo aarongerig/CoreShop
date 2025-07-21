@@ -32,6 +32,6 @@ interface TaxRuleRepositoryInterface extends BaseTaxRuleRepositoryInterface
     public function findForCountryAndState(
         TaxRuleGroupInterface $taxRuleGroup,
         ?CountryInterface $country = null,
-        ?StateInterface $state = null
+        ?StateInterface $state = null,
     ): array;
 }

@@ -19,7 +19,6 @@ declare(strict_types=1);
 namespace CoreShop\Bundle\PayumBundle\Action;
 
 use CoreShop\Bundle\PayumBundle\Request\ConfirmOrder;
-use CoreShop\Bundle\WorkflowBundle\Applier\StateMachineApplier;
 use CoreShop\Bundle\WorkflowBundle\Applier\StateMachineApplierInterface;
 use CoreShop\Component\Core\Model\PaymentInterface;
 use CoreShop\Component\Order\OrderTransitions;
